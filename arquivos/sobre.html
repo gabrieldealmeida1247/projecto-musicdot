@@ -13,25 +13,26 @@
     <!--Logo da MusicDot-->
     <img src="img/logo.svg" alt="Logo da MusicDot">
     <!--Titulo principal-->
-    <h1>Sobre a empresa</h1>
+    <h1 class="titulo">Sobre a empresa</h1>
      <!--Fim do titulo-->
     
 
     <p>A MusicDot é a maior escola online de música em todo mundo.Fundada em 1932, possui estúdios em 124 países, sendo líder de mercado com mais de 90% de participação em 118 deles.</p>
 
-    <p>Nossa matriz fica em #LINK# Mafra,em Santa Catarina. De lá, saem grande parte das gravações de nossos cursos.Nossa matriz:</p>
+    <p>Nossa matriz fica em <a href="http://maps.google.com.br/?
+        q=190,GabrielDequech,Mafra,SC" target="_blank">Mafra, em Santa Catarina</a>. De lá, saem grande parte das gravações de nossos cursos.Nossa matriz:</p>
     <!--Imagem da matriz musicdot-->
-    <figure>
+    <figure class="matriz-musicdot">
         <img src="img/matriz-musicdot.png" alt="Matriz MusicDot">
         <figcaption> Matriz MusicDot</figcaption>
     </figure>
        
     
-    <p>Assine os cursos da MusicDot.Acesse #LINK# ou entre em contato se tiver dúvidas.Conheçã também #LINK# nossa história e nossos diferenciais.</p>
+    <p>Assine os cursos da MusicDot.Acesse <a href="index.html" target="_blank">nosso site</a> ou entre em contato se tiver dúvidas.Conheçã também  <a href="#historia" target="_blank">nossa história</a> e <a href="#diferenciais" target="_blank">nossos diferenciais</a>.</p>
 
-    <h2>História</h2>
+    <h2 id="historia" class="subtitulo">História</h2>
     <!--Imagem da família Tupfeln-->
-    <figure>
+    <figure class="familia-tupfeln">
         <img src="img/familia-tupfeln.jpg" alt="Família Tupfeln">
         <figcaption> Família Tupfeln</figcaption>
     </figure>
@@ -62,35 +63,55 @@
         Todos os presidentes do Brasil já visitaram as instalações da MusicDot, além de presidentes da União Européia, Ásia e o secretário-geral da ONU.
         </p>
 
-    Diferenciais   
+    <h2 id="diferenciais" class="subtitulo">Diferenciais   </h2>
 
- Menor preço do mercado, garantido 
-     Se você achar um serviço mais barato, leva 1 mês de graça 
-     Pague em reais, dólares, euros, libras, dodgecoins, litecoins ou bitcoins 
-            Todas as compras acompanham acesso à Alura 
-            Maior escola de música online do mundo
-             Atendimento via telefone, email, chat, twitter, facebook, instagram, ICQ, WhatsApp, S
-         MS, carta, fax, sinal de fumaça e telegrama 
-     Presente em 124 países 
-     Mais de um milhão de funcionários em todo o mundo 
+     <ul>
+        <li>Menor preço do mercado, garantido</li>
+        <li>Se você achar um serviço mais barato, leva 1 mês de graça</li>
+        <li>Pague em reais, dólares, euros, libras, dodgecoins, litecoins ou bitcoins</li>
+        <li>Todas as compras acompanham acesso à Alura</li>
+        <li>Maior escola de música online do mundo</li>
+        <li>Atendimento via telefone, email, chat, twitter, facebook, instagram, ICQ, WhatsApp, SMS, carta fax, sinal de fumaça e telegrama</li>
+        <li>Presente em 124 países</li>
+        <li>Mais de um milhão de funcionários em todo o mundo</li>
+    </ul>
 
+    <!--Vai receber o mesmo estilo do h1-->
+    <h2 class="titulo">Contato</h2>
 
-    Contato
-Correspondência
-      (todos os dias, das 9h às 18h)
-      
-        AOVS Sistemas de Informática S.A
-        
-        Rua Vergueiro, 3185, 8o andar
-        
-        Vila Mariana
-        
-        São Paulo - SP
+    
+        <div class="contato_secao">
+            <h3 class="contato_subtitulo">Correspondência</h3>
+            <small>(todos os dias, das 9h às 18h)</small>
+            
+                <address class="contato_info">
+                    AOVS Sistemas de Informática S.A
+                    <br>
+                    Rua Vergueiro, 3185, 8o andar
+                    <br>
+                    Vila Mariana
+                    <br>
+                    São Paulo - SP
+                </address>
+        </div>
        
        
-        Telefone (todos os dias, das 9h às 18h)    
-        Pessoa Física (+244)951832038 
-            Pessoa Júridica (+244)951832038
-                Copyright MusicDot
+        <div class="contato_secao contato_secao--telefone">
+            
+                <h3 class="contato_subtitulo">Telefone</h3>
+                <small>(segunda à sexta, das 9h às 18h)</small>
+                <dl class="contato_info">
+                    <dt class="contato_info-titulo">Pessoa Física</dt>
+                    <dd class="contato_info-descricao"><a href="tel://114118-3319">(+244)951832038</a></dd>
+        </div>
+                        <div>
+                            <dt class="contato_info-titulo">Pessoa Júridica</dt>
+                            <dd class="contato_info-descricao"><a href="tel://114118-3319">(+244)951832038</a></dd>
+                        </div>
+            
+                </dl>
+       
+            <footer>Copyright MusicDot</footer>
+       
 </body>
 </html>

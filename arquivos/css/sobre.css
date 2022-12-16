@@ -9,13 +9,37 @@ body{
     margin: auto;
 }
 
-h1{
+.titulo{
     background-color: #E1EDF2;
     padding: 10px;
 }
 
-h2{
+.subtitulo{
     border-bottom: 2px solid black;
+}
+
+.contato_secao{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato_secao--telefone{
+    margin-left: 32px;
+}
+
+.contato_subtitulo{
+    display: inline;
+    
+}
+
+.contato_info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_info-titulo,.contato_info-descricao{
+    display: inline; 
 }
 
 figure{
@@ -26,6 +50,21 @@ figure{
     border: 1px solid lightgrey;
 }
 
+figure > img{
+    width: inherit;
+
+}
+
 figure > figcaption{
    margin-top: 10px;
+}
+
+.matriz-musicdot{
+    width: 550px;
+    margin: auto;
+}
+
+.familia-tupfeln{
+    width: 275px;
+    float: right;
 }
