@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -46,3 +47,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	font-family: 'Monstserrat',sans-serif;
+	color: #2e4255;
+}
+	a{
+		color: inherit;
+		text-decoration: inherit;
+	}

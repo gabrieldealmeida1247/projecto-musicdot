@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+.cabecalho{
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 0.23em;
+   color: #FFF;
+    background-color: #2D5377;
+}
+
+.cabecalho_logo{
+    padding:1.5em 0;
+    width: 14.5em;
+}
+
+.cabecalho_menu{
+    background-color: #2D5377;
+}
+.cabecalho_item-menu{
+    display: inline-block;
+   
+}
+
+.cabecalho_item-menu a{
+    display: inline-block;
+    padding: 1.86em 1.42em;
+}
