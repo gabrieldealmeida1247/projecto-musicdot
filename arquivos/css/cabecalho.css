@@ -18,9 +18,14 @@
 
 .cabecalho_menu{
     background-color: #2D5377;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #272B3A87;
 }
 .cabecalho_item-menu{
     display: inline-block;
+  
    
 }
 
@@ -28,3 +33,68 @@
     display: inline-block;
     padding: 1.86em 1.42em;
 }
+.rodape{
+    text-align: center;
+    font-size: 0.7rem;
+    
+}
+.rodape_logo{
+    width: 11.25em;
+}
+
+.rodape_lista-midias-sociais{
+    display: flex;
+    justify-content: center;
+}
+.rodape_lista-midias-sociais img{
+    width: 100%;
+}
+.rodape_titulo{
+   
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rodape_item-lista{
+    font-weight: 500;
+    
+}
+
+@media (min-width:640px){
+    .cabecalho{
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .cabecalho_logo{
+        padding: 2.5em 0;
+    }
+
+    .cabecalho_menu{
+    background-color: transparent;
+        
+    }
+}
+
+@media(min-width:770px) {
+    .cabecalho__item-menu--matricular{
+        margin-left: 1.42em;
+       background-color: #e93d50;
+        border-radius: 6px;
+    }
+
+    .cabecalho__item-menu--matricular a{
+        padding: 1.8em 3.5em;
+    }
+}
+
+@media (min-width: 1066px) {
+    .cabecalho{
+        padding-left: calc((100% - 960px) / 2);
+        padding-right: calc((100% - 960px) / 2);
+    }
+}
+
