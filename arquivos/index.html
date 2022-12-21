@@ -9,6 +9,7 @@
 600,700,&display=block">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 <body>
 
@@ -48,9 +49,9 @@
 
         <footer class="rodape">
             
-            <section>
+            <section class="rodape_secao">
                 <img  class="rodape_logo" src="img/logo.svg" alt="Logo da MusicDot">
-                <p>
+                <p class="rodape_info-empresa">
                    
                     AOVS Sistemas de Informática S.A.
                     <br>
@@ -70,7 +71,7 @@
                 
             </section>
             
-                <section>
+                <section class="rodape_secao">
                     <h2 class="rodape_titulo">Cursos da MusicDot</h2>
                     <nav>
                         <ul>
@@ -86,7 +87,7 @@
                         </ul>
                     </nav>
                 </section>
-                   <section>
+                   <section class="rodape_secao">
                        <h2 class="rodape_titulo">MusicDot</h2>
                             <nav>
                                 <ul>
@@ -102,11 +103,19 @@
                             </nav>
                    </section>
 
-
-                   Receba novidades e lançamentos
-                   Seu email pessoal
-              
-                   OK
+                <section class="rodape_secao">
+                    <h2 class="rodape_titulo">Receba novidades e lançamentos
+                        Seu email pessoal</h2>  
+                  <form action="#" method="get" class="form-newsletter">
+                      <label for="form-newsletter_label" class="form-newsletter_label">
+                        Seu enail pessoal
+                      </label>
+                      <input type="email" name="email-newsletter" id="email-newsletter" class="form-newsletter_campo">
+                      <button type="submit" class="form-newsletter_botao">
+                        OK
+                      </button>
+                    </section>
+                </form>
         </footer>
 
     
