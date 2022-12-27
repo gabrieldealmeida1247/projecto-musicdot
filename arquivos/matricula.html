@@ -55,72 +55,72 @@
         </thead>
             <tbody>
                 <tr>
-                    <td> <input type="checkbox" name="curso" value="20"></td>
+                    <td> <input onclick="adicionaCurso(this)" type="checkbox" name="curso" value="20"></td>
                     <td>Curso de Violão</td>
                     <td>20h</td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input  onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Bambolê</td>
                     <td>30h</td>
                 </tr>
                    
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Java</td>
                     <td>12h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Violão</td>
                     <td>20h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input  onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Bambolê</td>
                     <td>30h</td>
                 
                 </tr>
                     <tr>
-                    <td><input type="checkbox" name="curso">
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso">
                     <td>Curso de Java</td>
                     <td>12h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Violão</td>
                     <td>20h</td>
                 </tr>
                
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Bambolê</td>
                     <td>30h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Java</td>
                     <td>12h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso"></td>
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso"></td>
                     <td>Curso de Violão</td>
                     <td>20h</td>
                 </tr>
                     
                 <tr>
-                    <td><input type="checkbox" name="curso">
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso">
                     <td>Curso de Bambolê</td>
                     <td>30h</td>
                 </tr>
                 
                 <tr>
-                    <td><input type="checkbox" name="curso">
+                    <td><input onclick="adicionaCurso(this)" type="checkbox" name="curso">
                     <td>Curso de Java</td>
                     <td>12h</td>
                 </tr>
@@ -131,12 +131,13 @@
                         <td class="js-total-de-horas">0h</td>
                 </tr>  
             </tbody>
-        <button type="button" class="btn btn-outline-dark btn-lg mb-4">Confirmar       Matrícula</button>
+        <button type="button" class="js-botao-matricula btn btn-outline-dark btn-lg mb-4" onclick="confirmaMatricula()">Confirmar Matrícula</button>
     </table>
 
         </main>
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/matricula.js"></script>
     </body>
     </html>
